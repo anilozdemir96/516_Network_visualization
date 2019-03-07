@@ -34,9 +34,9 @@ institusions = [{'label': 'Google', 'value': 'Google'},
 #              {'label': '2016', 'value': '2016'}, {'label': '2017', 'value': '2017'},
 #              {'label': '2018', 'value': '2018'}]
 
-df = pd.read_excel('Arşiv/mezuniyet_sonrası_kariyer.xls', header=0)
-graduation = pd.read_excel('Arşiv/mezuniyet_derece_bilgileri.xls', header=0)
-personal_df = pd.read_excel('Arşiv/ogrencilik_donemi_kisisel_bilgiler.xls', header=0)
+df = pd.read_excel('Data/mezuniyet_sonrası_kariyer.xls', header=0)
+graduation = pd.read_excel('Data/mezuniyet_derece_bilgileri.xls', header=0)
+personal_df = pd.read_excel('Data/ogrencilik_donemi_kisisel_bilgiler.xls', header=0)
 
 import json
 
